@@ -1,0 +1,19 @@
+dictionary:
+  enableInit: true
+  default:
+    files: 
+      dictionary/A.csv, dictionary/B.csv, dictionary/C.csv, dictionary/D.csv,
+      dictionary/E.csv, dictionary/F.csv, dictionary/G.csv, dictionary/H.csv,
+      dictionary/I.csv, dictionary/J.csv, dictionary/K.csv, dictionary/L.csv,
+      dictionary/M.csv, dictionary/N.csv, dictionary/O.csv, dictionary/P.csv,
+      dictionary/Q.csv, dictionary/R.csv, dictionary/S.csv, dictionary/T.csv,
+      dictionary/U.csv, dictionary/V.csv, dictionary/W.csv, dictionary/X.csv,
+      dictionary/Y.csv, dictionary/Z.csv
+spring:
+  datasource:
+    password: admin
+    url: jdbc:mysql://localhost:3306/attachments
+    username: root
+  jpa:
+    hibernate:
+      ddl-auto: create

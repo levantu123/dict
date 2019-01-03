@@ -1,0 +1,12 @@
+{"properties": [
+  {
+    "name": "dictionary.default.files",
+    "type": "java.util.List",
+    "description": "A description for 'dictionary.default.files'"
+  },
+  {
+    "name": "dictionary.enable-init",
+    "type": "boolean",
+    "description": "A description for 'dictionary.enable-init'"
+  }
+]}
